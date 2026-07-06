@@ -1,0 +1,22 @@
+#ifndef _XWAYLAND_CONFIG_H_
+#define _XWAYLAND_CONFIG_H_
+
+/* Have glamor support */
+#mesondefine XWL_HAS_GLAMOR
+
+/* Have glamor API available */
+#mesondefine XWL_HAS_GLAMOR_API
+
+/* Have xwayland extension */
+#mesondefine XWL_HAS_XWAYLAND_EXTENSION
+
+/* Have libei for input emulation */
+#mesondefine XWL_HAS_EI
+
+/* Have libei portal support */
+#mesondefine XWL_HAS_EI_PORTAL
+
+/* Have libdecor for window decorations */
+#mesondefine XWL_HAS_LIBDECOR
+
+#endif /* _XWAYLAND_CONFIG_H_ */
