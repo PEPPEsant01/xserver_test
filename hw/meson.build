@@ -1,21 +1,4 @@
-subdir('kdrive')
+# Xwayland DDX - X Server for running X clients on Wayland
+# This is part of X11Libre - the community-managed X server
 
-if build_xvfb
-    subdir('vfb')
-endif
-
-if build_xnest
-    subdir('xnest')
-endif
-
-if build_xorg
-    subdir('xfree86')
-endif
-
-if build_xquartz
-    subdir('xquartz')
-endif
-
-if build_xwin
-    subdir('xwin')
-endif
+subdir('xwayland')
